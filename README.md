@@ -27,3 +27,6 @@ add feature-03 l1
 
 add feature-06
 add feature-06 l1
+add feature-05
+add feature-05
+add feature-05 l1
