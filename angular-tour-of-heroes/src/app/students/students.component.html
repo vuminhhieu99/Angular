@@ -1,0 +1,10 @@
+<p [className]="'red'">students works is real!</p>
+<p [ngClass]="{'red': true, 'bg-cl': false}">{{name}}</p>
+<p [ngClass]="{'red': true}" [class.bg-cl] ="isBackground">{{name}}</p>
+<input [hidden]="isBackground" [(ngModel)]="name" />
+<button (click)="isBackground = !isBackground">ẩn/tắt</button>
+
+<p [style.color]="'#cccccc'">attribute</p>
+<img 
+(click)="clickImg($event)"
+[src]='avatar' alt="">
